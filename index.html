@@ -1,22 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <link rel="stylesheet" type="text/css" href="css-styling.css">
+    <link href="styles.css" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 </head>
+
 <body>
-    <header>Etch-A-Sketch</header>
-    <div class = "btnContainer">
+    <header style="text-align: center">Etch-A-Sketch</header>
+
+    <div class="btnContainer">
         <button id="reset">Reset</button>
-        <button id="color picker">Pick a Color</button>
+        <button id="random">Random</button>
+        <button id="colorpicker">Pick Color</button>
     </div>
     <div id="gridContainer"></div>
-    <p>Created By Patrick Calhoun</p>
+    <p style="text-align: center">Created By Patrick Calhoun</p>
+
+    <script type="text/javascript" src="app.js"></script>
 </body>
 
-
-<script type="text/javascript" src="app.js"></script>
 </html>
