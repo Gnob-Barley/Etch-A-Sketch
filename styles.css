@@ -1,27 +1,30 @@
-.gridCell{
+.gridCell {
     background-color: rgb(78, 78, 78);
 }
+
 #gridContainer {
     margin: auto;
     margin-top: 50px;
     display: grid;
     width: 600px;
     height: 600px;
-    border: 10px solid rgba(255, 66, 66, 0.705);
+    border: 10px inset rgba(255, 66, 66, 0.705);
 }
+
 body {
     background-color: rgb(48, 48, 48);
 }
+
 button {
-    display: block;
+    display: inline-flex;
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
     background-color: rgba(255, 66, 66, 0.705);
     color: #fff;
-    border: 5px outset black;
+    border: 5px outset rgb(48, 48, 48);
     padding: 15px 32px;
-    text-align: center;
+    text-align: inline;
     text-decoration: none;
     font-size: 16px;
     font-family: 'Roboto Slab', serif;
@@ -33,11 +36,19 @@ h1 {
     font-size: 50px;
     font-family: 'Roboto Slab', serif;
 }
-header{
+
+header {
     color: rgba(255, 66, 66, 0.705);
     font-size: 50px;
+    text-shadow:
+        -1px -1px 0 #000,
+        5px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
 }
-p{
+
+p {
     color: rgba(255, 66, 66, 0.705);
-    font-size:20px;
+    font-size: 20px;
+    font-family: 'Roboto Slab', serif;
 }
